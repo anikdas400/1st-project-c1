@@ -28,3 +28,44 @@
 .menus li:hover{
     color: chocolate;
 }
+/* bannar-section */
+.bannar-section{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url("./img/milky-way-ge3a9f8544_1280.jpg"),
+    linear-gradient(45deg,rgb(70, 82, 21),rgb(65, 16, 77));
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.banner-text h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+.banner-text p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn{
+    
+    font-size: 17px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: rgb(240, 14, 14);
+    color: aliceblue;
+    border: none;
+}
+.btn:hover{
+    background: #0bbc0b;
+    color: aliceblue;
+    border: none;
+}
+
+.banner-photo{
+    width: 300px;
+    
+}
