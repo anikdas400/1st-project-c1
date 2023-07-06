@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header-section */
+.menu-container{
+    background: #584e4e;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+.logo-photo{
+    width: 120px;
+    
+}
+.menus{
+    display: flex;
+}
+.menus li{
+    list-style: none;
+    margin-left: 15px;
+    color: rgb(246, 245, 244);
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.menus li:hover{
+    color: chocolate;
+}
