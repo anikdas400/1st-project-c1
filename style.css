@@ -69,3 +69,28 @@
     width: 300px;
     
 }
+/* about-section */
+.about-section{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+    background: white;
+}
+.head{
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    padding: 20px;
+}
+.about-text{}
+.about-text h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.about-text p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-image{}
