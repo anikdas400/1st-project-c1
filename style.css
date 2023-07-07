@@ -58,6 +58,7 @@
     background: rgb(240, 14, 14);
     color: aliceblue;
     border: none;
+    border-radius: 5px;
 }
 .btn:hover{
     background: #0bbc0b;
@@ -148,3 +149,40 @@
     background: #2b2727;
     
 }
+/* footer-section */
+.footer-section{
+    background: #000;
+    color: white;
+    padding: 60px;
+}
+.blogs-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.blog p{
+    font-size: 18px;
+}
+.blog h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.blog ul{}
+.blog ul li{
+    text-decoration: none;
+    font-size: 17px;
+    padding: 5px 5px;
+    list-style: none;
+}
+small{
+    font-size: 18px;
+    color: gray;
+    
+}
+.copy-right{
+    text-align: center;
+    margin-top: 20px;
+}
+
